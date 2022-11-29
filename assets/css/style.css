@@ -3004,7 +3004,7 @@ p {
 }
 
 .course__title {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -10049,6 +10049,95 @@ p.checkout-coupon input[type=text]:focus {
 
 .footer__copyright-2 p a {
     color: #025bb5;
+}
+
+
+/* dilshad Css */
+
+.start-free {
+    background: rgba(0, 0, 0, 0) url("../img/banner/start_free.png") no-repeat scroll center center / cover;
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
+}
+
+.e-btn2 {
+    color: #025bb5;
+    padding: 14px 50px;
+    height: auto;
+    line-height: initial;
+    border-radius: 100px;
+    font-size: 18px;
+    background: #fff;
+    border: 2px solid #025bb5;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+
+.e-btn2:hover {
+    background-color: #025bb5;
+    color: #fff;
+}
+
+.banner__area-top {
+    margin-top: -100px;
+}
+
+.course_item2 {
+    min-height: 400px;
+}
+
+.accordion-header {
+    padding: 28px 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.accordion-header button {
+    padding: 0;
+    background: #fff;
+    border: none;
+    color: #0e1133;
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 885px;
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #fff;
+    color: #0e1133;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.accordion-collapse {
+    border: solid rgba(0, 0, 0, .125);
+    border-width: 0;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    font-size: 16px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item::after {
+    width: 1%;
+}
+
+.max-w-500 {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 
