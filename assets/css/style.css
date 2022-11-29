@@ -8168,6 +8168,10 @@ p.checkout-coupon input[type=text]:focus {
     color: #025bb5;
 }
 
+.brand__item {
+    text-align: center;
+}
+
 
 /*----------------------------------------*/
 
@@ -10138,6 +10142,24 @@ p.checkout-coupon input[type=text]:focus {
 .max-w-500 {
     max-width: 500px;
     margin: 0 auto;
+}
+
+@media(max-width:575px) {
+    .header__padding {
+        padding: 10px;
+    }
+    .header__left .logo img {
+        max-width: 150px;
+    }
+    .sidebar__content {
+        margin-top: 40px;
+    }
+    .sidebar__content .logo {
+        display: none;
+    }
+    .hero__content p {
+        font-size: 19px;
+    }
 }
 
 
