@@ -2010,13 +2010,17 @@ p {
 /*  03. HERO CSS START
 /*----------------------------------------*/
 
-.hero__height {
+/* .hero__height {
     min-height: 950px;
+} */
+
+.hero__height {
+    min-height: 750px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .hero__height {
-        min-height: 850px;
+        min-height: 700px;
     }
 }
 
@@ -10159,6 +10163,17 @@ p.checkout-coupon input[type=text]:focus {
     }
     .hero__content p {
         font-size: 19px;
+    }
+    .start-free{
+        padding: 2rem;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+    .strat-free-text h2{
+        font-size: 30px;
+    }
+    .start-free-btn{
+        margin-top: 15px;
     }
 }
 

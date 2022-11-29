@@ -57,6 +57,27 @@
         $(".body-overlay").removeClass("opened");
     });
 
+    $(".homeBtn").on("click",function(e){
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+    $(".courseBtn").on("click",function(e){
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+    $(".aboutBtn").on("click",function(e){
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+    $(".featureBtn").on("click",function(e){
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+    $(".contactBtn").on("click",function(e){
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+
 
     ////////////////////////////////////////////////////
     // 04. Cart Toggle Js
@@ -160,9 +181,15 @@
         },
         breakpoints: {
             767: {
-                slidesPerView: 1,
+                slidesPerView: 5,
                 spaceBetween: 20,
             },
+            0: {
+                slidesPerView: 1
+            }
+        },
+        autoplay: {
+            delay: 2000,
         },
     });
 
