@@ -2010,6 +2010,7 @@ p {
 /*  03. HERO CSS START
 /*----------------------------------------*/
 
+
 /* .hero__height {
     min-height: 950px;
 } */
@@ -10068,6 +10069,29 @@ p.checkout-coupon input[type=text]:focus {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
+    background-color: #025bb5;
+    position: relative;
+    overflow: hidden;
+}
+
+.start-free .left-circle {
+    position: absolute;
+    background: #ffb352;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    left: -68px;
+    bottom: -60px;
+    /* opacity: 0.5; */
+}
+
+.strat-free-text strong,
+.strat-free-text span {
+    color: #fffc;
+}
+
+.strat-free-text h2 {
+    color: #fff;
 }
 
 .e-btn2 {
@@ -10087,6 +10111,7 @@ p.checkout-coupon input[type=text]:focus {
 .e-btn2:hover {
     background-color: #025bb5;
     color: #fff;
+    border: 2px solid #fff;
 }
 
 .banner__area-top {
@@ -10148,6 +10173,96 @@ p.checkout-coupon input[type=text]:focus {
     margin: 0 auto;
 }
 
+.blue-bg-42 {
+    background: #fff;
+    border-bottom: 3px solid #2d69f0;
+}
+
+.services__icon svg path {
+    fill: #0e1133;
+}
+
+.services__title {
+    color: #0e1133;
+}
+
+.services__content p {
+    color: #0e1133;
+}
+
+.services__item:hover p {
+    visibility: inherit;
+    opacity: 1;
+}
+
+.pink-bg2 {
+    background: #fff;
+    border-bottom: 3px solid #dd246e;
+}
+
+.purple-bg2 {
+    background: #fff;
+    border-bottom: 3px solid #8007e6;
+}
+
+.green-bg2 {
+    background: #fff;
+    border-bottom: 3px solid #0cae74;
+}
+
+.services__icon_blue svg path {
+    fill: #2d69f0;
+}
+
+.services__icon_pink svg path {
+    fill: #dd246e;
+}
+
+.services__icon_purple svg path {
+    fill: #8007e6;
+}
+
+.services__icon_green svg path {
+    fill: #0cae74;
+}
+
+.about__area {
+    background-color: #025bb5;
+}
+
+.about__area .section__title {
+    color: #fff;
+}
+
+.about__area .section__title-wrapper p {
+    color: #fffc;
+}
+
+.about__area .about__list ul li {
+    color: #fff;
+}
+
+.about__area .about__review h5 span {
+    color: #fff;
+}
+
+.about__area .about__review h5 {
+    color: #fffc;
+}
+
+.about__area .e-btn-border {
+    color: #fff;
+}
+
+.about__area .e-btn-border:hover {
+    background-color: #fff;
+    color: #025bb5;
+}
+
+.about__area .about__list ul li i {
+    color: #ffb352;
+}
+
 @media(max-width:575px) {
     .header__padding {
         padding: 10px;
@@ -10164,15 +10279,15 @@ p.checkout-coupon input[type=text]:focus {
     .hero__content p {
         font-size: 19px;
     }
-    .start-free{
+    .start-free {
         padding: 2rem;
         align-items: flex-start !important;
         justify-content: flex-start !important;
     }
-    .strat-free-text h2{
+    .strat-free-text h2 {
         font-size: 30px;
     }
-    .start-free-btn{
+    .start-free-btn {
         margin-top: 15px;
     }
 }
