@@ -57,26 +57,26 @@
         $(".body-overlay").removeClass("opened");
     });
 
-    $(".homeBtn").on("click",function(e){
+    $(".closeMEnu").on("click", function(e) {
         $(".sidebar__area").removeClass("sidebar-opened");
         $(".body-overlay").removeClass("opened");
     });
-    $(".courseBtn").on("click",function(e){
-        $(".sidebar__area").removeClass("sidebar-opened");
-        $(".body-overlay").removeClass("opened");
-    });
-    $(".aboutBtn").on("click",function(e){
-        $(".sidebar__area").removeClass("sidebar-opened");
-        $(".body-overlay").removeClass("opened");
-    });
-    $(".featureBtn").on("click",function(e){
-        $(".sidebar__area").removeClass("sidebar-opened");
-        $(".body-overlay").removeClass("opened");
-    });
-    $(".contactBtn").on("click",function(e){
-        $(".sidebar__area").removeClass("sidebar-opened");
-        $(".body-overlay").removeClass("opened");
-    });
+    // $(".courseBtn").on("click",function(e){
+    //     $(".sidebar__area").removeClass("sidebar-opened");
+    //     $(".body-overlay").removeClass("opened");
+    // });
+    // $(".aboutBtn").on("click",function(e){
+    //     $(".sidebar__area").removeClass("sidebar-opened");
+    //     $(".body-overlay").removeClass("opened");
+    // });
+    // $(".featureBtn").on("click",function(e){
+    //     $(".sidebar__area").removeClass("sidebar-opened");
+    //     $(".body-overlay").removeClass("opened");
+    // });
+    // $(".contactBtn").on("click",function(e){
+    //     $(".sidebar__area").removeClass("sidebar-opened");
+    //     $(".body-overlay").removeClass("opened");
+    // });
 
 
     ////////////////////////////////////////////////////
