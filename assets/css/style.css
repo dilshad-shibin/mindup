@@ -2919,6 +2919,7 @@ p {
 
 .course__item-2 {
     padding: 40px;
+    min-height: 750px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6356,6 +6357,7 @@ p.checkout-coupon input[type=text]:focus {
     -ms-transition: transform 0.3s cubic-bezier(0.21, 0.6, 0.44, 2.18);
     -o-transition: transform 0.3s cubic-bezier(0.21, 0.6, 0.44, 2.18);
     transition: transform 0.3s cubic-bezier(0.21, 0.6, 0.44, 2.18);
+    min-height: 470px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
