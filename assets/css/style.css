@@ -10657,12 +10657,23 @@ p.checkout-coupon input[type=text]:focus {
     color: #fff
 }
 
+.header__left .logo img {
+    width: 200px;
+}
+
+.footer__logo img {
+    max-width: 300px;
+}
+
 @media(max-width:575px) {
     .header__padding {
         padding: 10px;
     }
     .header__left .logo img {
-        max-width: 150px;
+        max-width: 180px;
+    }
+    .footer__logo img {
+        max-width: 250px;
     }
     .sidebar__content {
         margin-top: 40px;
